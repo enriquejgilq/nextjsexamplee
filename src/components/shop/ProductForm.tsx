@@ -87,7 +87,8 @@ function ProductForm(props: Props) {
     return (
         <div className={rootClasses} {...rootProps}>
             <div className="product-form__body">
-                {optionsTemplate}
+                {/** COLOR!!! Edit!!! */}
+            {/**  {optionsTemplate} */}  
             </div>
         </div>
     );

@@ -58,13 +58,14 @@ function ProductTabs(props: Props) {
             title: intl.formatMessage({ id: 'TEXT_TAB_SPECIFICATION' }),
             content: (<Specification groups={spec} />),
         },
-        {
+        //ReviewsView is not implemented yet
+    /*}  {
             id: 'product-tab-reviews',
             title: intl.formatMessage({ id: 'TEXT_TAB_REVIEWS' }),
             content: (<ReviewsView productId={product.id} productPageLayout={layout} />),
             counter: product.reviews,
             showCounter: typeof product.reviews === 'number' && product.reviews > 0,
-        },
+        },*/
         {
             id: 'product-tab-analogs',
             title: intl.formatMessage({ id: 'TEXT_TAB_ANALOGS' }),

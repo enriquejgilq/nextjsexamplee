@@ -22,8 +22,8 @@ function Page() {
                         <div
                             className="about__image-bg"
                             style={{
-                                backgroundImage: `url(${baseUrl('/images/about.jpg')})`,
-                            }}
+                                backgroundImage: `url(${baseUrl('/images/BannerAbout.jpg')})`,
+                                width:'1200px', height:'392px', display:'block', margin:'0 auto'}}
                         />
                         <Decor className="about__image-decor" type="bottom" />
                     </div>
@@ -31,18 +31,16 @@ function Page() {
                     <div className="about__card">
                         <div className="about__card-title">About Us</div>
                         <div className="about__card-text">
-                            RedParts is an international company with 30 years of history selling spare parts for cars,
-                            trucks and motorcycles.
-                            During our work we managed to create a unique service for the sale and delivery of spare
-                            parts around the world.
+                            <p> 
+                              Global Air is a world leader in the automotive air conditioning industry. Our people design and develop climate control products for every major vehicle on the road today. Based in Miami Gardens, Florida USA, we are minutes away from Miami and Fort Lauderdale airports.
+                               Global Air has earned a reputation for premium quality products and world-class customer service through years of hard work and commitment to excellence. These factors coupled with competitive pricing, on-time delivery, and a strong engineering department, make Global Air the right choice for your automotive air conditioning component needs.
+                            </p>
                         </div>
-                        <div className="about__card-author">Ryan Ford, CEO RedParts</div>
-                        <div className="about__card-signature">
-                            <AppImage src="/images/signature.jpg" width="160" height="55" />
-                        </div>
+                        
                     </div>
+                   
 
-                    <div className="about__indicators">
+                    {/* <div className="about__indicators">
                         <div className="about__indicators-body">
                             <div className="about__indicators-item">
                                 <div className="about__indicators-item-value">350</div>
@@ -57,13 +55,13 @@ function Page() {
                                 <div className="about__indicators-item-title">Satisfied customers</div>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
 
             <BlockSpace layout="divider-xl" />
 
-            <BlockTeammates />
+          {/**  <BlockTeammates /> */}
 
             <BlockSpace layout="divider-xl" />
 
