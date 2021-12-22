@@ -8,7 +8,7 @@ import AppLink from '~/components/shared/AppLink';
 
 function BlockBanners() {
     const intl = useIntl();
-
+    
     return (
         <div className="block block-banners">
             <div className="container">
