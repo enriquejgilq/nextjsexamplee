@@ -15,6 +15,8 @@ interface Props {
     onCloseMenu: () => void;
 }
 
+
+
 function AccountMenu(props: Props) {
     const { onCloseMenu } = props;
     const intl = useIntl();
